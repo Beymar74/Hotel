@@ -1,0 +1,6 @@
+.chef-image {
+  width: 150px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}

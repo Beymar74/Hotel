@@ -1,0 +1,26 @@
+.cont2 {
+    display: flex;
+    padding: 15px 0 6px 27px;
+    border-bottom: 1px solid #E5E8EB;
+  }
+
+.pairumani1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  .profile1 {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+  }
+
+.h1-2{
+    color: #171412;
+    font-feature-settings: "dlig" on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 230% */
+}

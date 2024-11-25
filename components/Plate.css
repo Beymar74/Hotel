@@ -1,0 +1,44 @@
+.plate-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  width: 170px;
+}
+
+.plate-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.plate-container img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.plate-details h2 {
+  color: #1c170d;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+.plate-details p {
+    color: #A1824A;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    margin-left: 6px;
+}

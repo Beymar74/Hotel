@@ -1,0 +1,53 @@
+.conteiner {
+  display: flex;
+  height: 59px;
+  padding: 10px 8px 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.titulo {
+  color: #1c170d;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.habitacion {
+  display: flex;
+  width: 117px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #003e09;
+
+  color: #003e09;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}
+.comedor {
+  display: flex;
+  width: 117px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #003e09;
+
+  color: #003e09;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}

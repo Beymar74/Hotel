@@ -1,0 +1,11 @@
+.plato {
+  margin-left: 18px;
+  color: #1c170d;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin: auto; /* Centra el contenido */
+}

@@ -1,0 +1,20 @@
+.cajon{
+    width: 375;
+    display: flex;
+    padding: 16px 16px 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch; 
+    background: #FFF;
+}
+.his{
+    align-self: stretch;
+    color: #1C140D;
+    font-feature-settings: 'dlig' on;
+    font-family: Epilogue;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 125% */
+}

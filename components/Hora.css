@@ -1,0 +1,39 @@
+.horablock {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  border-radius: 5px;
+  border: 1px solid rgba(0, 62, 9, 0.4);
+  width: 375px;
+}
+
+.buttonhora {
+  display: flex;
+  width: 70px;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #003e09;
+
+  color: #003e09;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 14px;
+}
+.grupi {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.grupii {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 30px;
+}

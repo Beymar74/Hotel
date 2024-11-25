@@ -1,0 +1,23 @@
+.botonmodificar{
+    display: flex;
+    height: 40px;
+    min-width: 84px;
+    max-width: 480px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #F5F2F0;
+    overflow: hidden;
+    color: #171412;
+    text-align: center;
+    font-feature-settings: 'dlig' on;
+    text-overflow: ellipsis;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    cursor: pointer; /* Añadido para dar sensación de interacción */
+    border: none; /* Para asegurarte que no hay bordes por defecto */
+}

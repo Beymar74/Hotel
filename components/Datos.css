@@ -1,0 +1,113 @@
+.titulo {
+  color: #171412;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.tit {
+  display: flex;
+  padding: 0px 84.5px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  margin-bottom: 18px;
+}
+.subcaja {
+  display: flex;
+  width: 375px;
+  padding: 20px 0.5px 20px 0.5px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+
+.iniciarSesion {
+  display: flex;
+  padding: 12px 112.5px 11px 112.5px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+.olvidarContra {
+  display: flex;
+  padding: 4px 16px 12px 16px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+
+.texto {
+  display: flex;
+  width: 263px;
+  padding-bottom: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tex {
+  color: #171412;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-bottom: 8px;
+}
+
+.button {
+  display: flex;
+  width: 149px;
+  padding: 10px 13px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #003e09;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  text-overflow: ellipsis;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 150% */
+  margin: 0;
+}
+.linksini {
+  width: 375px;
+  color: #877363;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.form1 input {
+  height: 56px;
+  padding: 10px;
+  border: 1px solid #e5e0db;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #877363;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 263px;
+height: 56px;
+padding: 15px;
+}

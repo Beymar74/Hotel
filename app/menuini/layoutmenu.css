@@ -1,0 +1,26 @@
+.card {
+  background-color: #d5c3ac;
+  min-height: 210px;
+  min-width: 375px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.logo {
+  width: 246px;
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 10px;
+}
+.comida{
+    position: relative;
+    top: -65px;
+    color: #FFF;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 25.8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.654px; /* 125% */
+    right: 50px;
+}

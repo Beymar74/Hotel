@@ -1,0 +1,41 @@
+.cabeza {
+  display: flex;
+  padding: 16px 16px 8px 16px;
+  align-items: center;
+  justify-content:space-between;
+
+}
+.orden{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.izq {
+  margin-right:70px;
+  margin-left: 5px;
+  margin-right: 240px;
+
+}
+.der {
+  display: flex;
+  justify-content: flex-end;
+  margin-left:90px;
+  margin-right: 0px;
+}
+.atras{
+  width: 30px;
+  height: 30px;
+}
+
+.sign-in-button {
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans";
+}
+
+
+

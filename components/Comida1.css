@@ -1,0 +1,35 @@
+.cuadro{
+    width: 375px;
+    display: flex;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background: #FFF;
+}
+
+.ima{
+    width: 48px;
+    height: 56px;
+    
+}   
+.comid{
+    align-self: stretch;
+    color: #1C170D;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.tema{
+    align-self: stretch;
+    color: #9C704A;
+    font-feature-settings: 'dlig' on;
+    font-family: Epilogue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}

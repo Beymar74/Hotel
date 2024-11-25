@@ -1,0 +1,91 @@
+.imagen {
+  margin-left: 5px;
+  width: 100%;
+  height: 155px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 15px;
+   background-color: #f5f0f0;
+  margin-bottom: 5px;
+  opacity: hidden;
+  
+}
+.plate{
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+}
+.titulo {
+  align-self: stretch;
+  color: #0d141c;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 125% */
+}
+.money{
+  align-self: stretch;
+  color: #0d141c;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 125% */
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.precio {
+  align-self: stretch;
+  color: white;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 17px;
+  background-color: darkgreen;
+  padding: 0 0 0 5px;
+  width: 120px;
+  border-radius: 5px;
+}
+.bs{
+  margin-left: 5px;
+}
+.blockdes{
+  border-radius: 5px;
+  border: 1px solid rgba(0, 62, 9, 0.4);
+  padding: 0px 0px 0px 5px;
+}
+.descripcion {
+  color: #171412;
+  font-feature-settings: "dlig" on;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin: 5px;
+}
+.subtitulo{
+    align-self: stretch;
+    color: #0d141c;
+    font-feature-settings: "dlig" on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 125% */
+    color: darkgreen;
+    margin-left:5px ;
+}
+.lista{
+    margin: 5px;
+    color: #171412;
+    font-feature-settings: "dlig" on;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 5px;
+}

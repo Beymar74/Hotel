@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 14px;
+    color: #A1824A;
+}
+
+.footer nav {
+    margin-bottom: 16px;
+}
+
+.footer nav a {
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+.social-media:active {
+    color: #a1824a73; 
+  }
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-links {
+    margin-top: 16px;
+}

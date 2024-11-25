@@ -1,0 +1,27 @@
+.food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+}
+
+.food-image {
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.food-info {
+    flex-grow: 1;
+}
+
+.food-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.rating {
+    color: #FFD700; /* Color de las estrellas */
+    font-size: 16px;
+}

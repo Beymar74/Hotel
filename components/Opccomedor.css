@@ -1,0 +1,53 @@
+.coment {
+  width: 290px;
+  flex-shrink: 0;
+  color: #1c170d;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-left: 16px;
+}
+.opcnum {
+  display: flex;
+  height: 46px;
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 117px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 62, 9, 0);
+}
+.maxmin {
+  display: flex;
+  width: 119px;
+  height: 39px;
+  padding: 16px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 5px;
+  background: #003e09;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.max {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background-color:#003e09;
+}
+.min {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background-color:#003e09;
+}
+.contador{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    color: white;
+}

@@ -1,0 +1,20 @@
+.submit-button {
+    width: 330px;
+    height: 40px;
+    overflow: hidden;
+    color: #fcfbfb;
+    text-align: center;
+    font-feature-settings: "dlig" on;
+    text-overflow: ellipsis;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px; /* 150% */
+    padding: 9px 0px 10px 0px;
+    background: #003e09;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: 22px;
+  }

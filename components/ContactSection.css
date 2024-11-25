@@ -1,0 +1,36 @@
+.contact-section {
+    text-align: center;
+    padding: 16px;
+}
+
+.contact-image {
+    position: relative;
+    display: inline-block; /* Esto ayuda a que se centre */
+    margin: 0 auto; /* Centra el elemento en su contenedor */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contact-button {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.contact-section h2 {
+    color: #1C170D;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 16px; /* Espacio debajo del título */
+}

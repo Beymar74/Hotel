@@ -1,0 +1,8 @@
+.pag{
+    display: flex;
+    width: 375px;
+    height: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}

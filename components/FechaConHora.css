@@ -1,0 +1,17 @@
+.hora-fecha {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000; /* Cambia este color si tienes una paleta definida */
+    display: flex;
+    align-items: center;
+  }
+  
+  .hora-fecha .dia {
+    margin-right: 5px;
+    font-weight: bold; /* Para destacar el día */
+  }
+  
+  .hora-fecha .hora {
+    font-style: normal;
+  }
+  

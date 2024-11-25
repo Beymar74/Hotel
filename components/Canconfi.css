@@ -1,0 +1,29 @@
+.section1 {
+  display: flex;
+  width: 390px;
+  max-width: 480px;
+  padding: 12px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cancelar1 {
+  display: flex;
+  width: 130px;
+  height: 48px;
+  padding: 0px 24px;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #faf9ff;
+}
+.confirmar1 {
+  display: flex;
+  color: white;
+  height: 48px;
+  padding: 0px 24px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 15px;
+  background: #003e09;
+}

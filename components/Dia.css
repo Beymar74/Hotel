@@ -1,0 +1,21 @@
+.fechas-container-simple {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    
+  }
+  
+  .fecha-item {
+    align-self: stretch;
+    color: #1C140D;
+    font-feature-settings: 'dlig' on;
+    font-family: Epilogue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 127.778% */
+    margin-left: 10px  
+  }
+  

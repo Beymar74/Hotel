@@ -1,0 +1,24 @@
+.des {
+  color: #0d141c;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 127.273% */
+  margin-bottom: 12px;
+}
+.desayuno-container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: center; 
+    gap: 15px; 
+    margin: 0 20px;
+}

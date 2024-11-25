@@ -1,0 +1,49 @@
+.cont {
+  display: flex;
+  padding: 20px 0px 0px 23px;
+}
+header {
+  max-height: 370px;
+}
+.pairumani {
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.titulo {
+  color: #171412;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.bien {
+  margin-left: 18px;
+  position: relative;
+  color: #fff;
+  top: -90px;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 125% */
+}
+.inicio {
+  max-width: 375;
+  max-height: 320;
+}
+.ht {
+  color: #171412;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px; /* 127.778% */
+  padding-right: 87px;
+}

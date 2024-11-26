@@ -1,27 +1,41 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
+    "target": "ES2017", // Versión objetivo de ECMAScript
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Librerías compatibles
+    "allowJs": true, // Permitir archivos .js junto con .ts
+    "skipLibCheck": true, // Ignorar conflictos en las dependencias
+    "strict": false, // Desactivar reglas estrictas
+    "noEmit": true, // No generar archivos de salida
+    "esModuleInterop": true, // Interoperabilidad con módulos ES
+    "module": "esnext", // Configuración del módulo
+    "moduleResolution": "bundler", // Resolución de módulos para bundlers modernos
+    "resolveJsonModule": true, // Permitir importar JSON como módulos
+    "isolatedModules": true, // Requerir que todos los archivos tengan un módulo
+    "jsx": "preserve", // Configuración para JSX
+    "incremental": true, // Habilitar compilación incremental
     "plugins": [
       {
-        "name": "next"
+        "name": "next" // Plugin específico para Next.js
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": [
+        "./*"
+      ] // Alias para rutas
+    },
+    "strictNullChecks": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts", // Archivos necesarios para Next.js
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts" // Tipos generados automáticamente por Next.js
+  ],
+  "exclude": [
+    "node_modules" // Excluir dependencias del análisis
+  ]
 }

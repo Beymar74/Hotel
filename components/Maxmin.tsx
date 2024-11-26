@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { useUser } from "@clerk/nextjs"; // Importar para acceder al usuario autenticado
+import { useUser } from "@clerk/nextjs"; // Hook de Clerk para el usuario autenticado
 import "./Maxmin.css";
 
 type CantimaxminProps = {
@@ -17,11 +17,17 @@ type CantimaxminProps = {
 
 const Cantimaxmin: React.FC<CantimaxminProps> = ({ initialCantidad, data }) => {
   const [cantidad, setCantidad] = useState<number>(initialCantidad);
-  const { user } = useUser(); // Hook para obtener datos del usuario autenticado
+  const { user } = useUser(); // Obtener datos del usuario autenticado
+  const [loading, setLoading] = useState(false); // Estado de carga
 
-  // Obtener el username y email del usuario autenticado
-  const usern = user?.username || user?.fullName || `${user?.firstName} ${user?.lastName}` || "Usuario desconocido";
-  const email = user?.emailAddresses[0]?.emailAddress || "Correo no disponible";
+  // Obtener nombre y correo del usuario autenticado
+  const usern =
+    user?.username ||
+    user?.fullName ||
+    `${user?.firstName} ${user?.lastName}` ||
+    "Usuario desconocido";
+  const email =
+    user?.emailAddresses?.[0]?.emailAddress || "Correo no disponible";
 
   const aumentar = () => {
     if (cantidad < 10) {
@@ -36,6 +42,7 @@ const Cantimaxmin: React.FC<CantimaxminProps> = ({ initialCantidad, data }) => {
   };
 
   const handleConfirm = async () => {
+    setLoading(true); // Mostrar estado de carga
     try {
       const payload = {
         platilloId: data.id,
@@ -44,19 +51,22 @@ const Cantimaxmin: React.FC<CantimaxminProps> = ({ initialCantidad, data }) => {
         cantidad: cantidad,
         total: data.precio * cantidad,
         plaimagen: data.plaimagen,
-        username: usern, 
-        correo: email, 
+        username: usern,
+        correo: email,
       };
 
-      console.log("Cuerpo enviado:", payload); 
+      console.log("Cuerpo enviado:", payload);
 
-      const response = await fetch("https://673629d5aafa2ef2222fb0a8.mockapi.io/pedido", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
+      const response = await fetch(
+        "https://673629d5aafa2ef2222fb0a8.mockapi.io/pedido",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
 
       if (response.ok) {
         alert("Pedido confirmado con éxito.");
@@ -66,6 +76,8 @@ const Cantimaxmin: React.FC<CantimaxminProps> = ({ initialCantidad, data }) => {
     } catch (error) {
       console.error("Error al enviar el pedido:", error);
       alert("Error al procesar el pedido. Por favor, intenta nuevamente.");
+    } finally {
+      setLoading(false); // Ocultar estado de carga
     }
   };
 
@@ -98,13 +110,19 @@ const Cantimaxmin: React.FC<CantimaxminProps> = ({ initialCantidad, data }) => {
         </div>
       </div>
       <section className="section">
-        <button className="cancelar">
+        <button className="cancelar" disabled={loading}>
           <span>Cancelar</span>
-          <img src="../cancel.png" alt="x" />
+          <Image src="/cancel.png" width={20} height={20} alt="Cancelar" />
         </button>
-        <button className="confirmar" onClick={handleConfirm}>
-          <span>Confirmar</span>
-          <img src="../Carrito.png" alt="R" />
+        <button className="confirmar" onClick={handleConfirm} disabled={loading}>
+          {loading ? (
+            <span>Cargando...</span>
+          ) : (
+            <>
+              <span>Confirmar</span>
+              <Image src="/Carrito.png" width={20} height={20} alt="Carrito" />
+            </>
+          )}
         </button>
       </section>
     </section>
